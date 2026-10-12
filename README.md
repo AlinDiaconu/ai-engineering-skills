@@ -1,4 +1,4 @@
-# ai-engineering-skills
+# AI Engineering Skills
 
 Reusable Claude Code skills for writing, handoff, and engineering guidance.
 
