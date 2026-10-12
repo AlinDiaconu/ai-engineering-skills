@@ -1,18 +1,37 @@
 # ai-engineering-skills
 
-This repository contains reusable Claude Code skills.
+Reusable Claude Code skills for writing, handoff, and engineering guidance.
+
+---
+
+## ✨ What is inside
+
+This repository is documentation-first and currently contains:
+
+- Skill definitions (`SKILL.md`)
+- Reference markdown docs for the C++ standards skill
+- No runtime modules, build scripts, or test scripts
 
 ## Repository layout
 
-- `/claude-code-skills/caveman/SKILL.md`  
-  Response-style skill for short, direct user-facing replies.
-- `/claude-code-skills/handoff/SKILL.md`  
-  Workflow skill for writing and resuming session handoff documents.
-- `/claude-code-skills/cpp-engineering-standards/SKILL.md`  
-  C++ engineering standards skill, with detailed references in:
-  `/claude-code-skills/cpp-engineering-standards/references/`.
+```text
+claude-code-skills/
+├─ caveman/
+│  └─ SKILL.md
+├─ handoff/
+│  └─ SKILL.md
+└─ cpp-engineering-standards/
+   ├─ SKILL.md
+   └─ references/
+```
 
-## Current scope
+## Skills overview
 
-- The repository is documentation-first: it currently contains skill definitions and reference markdown files.
-- There are no build/test scripts or runtime source modules in this repository at the moment.
+| Skill | Location | Purpose |
+|---|---|---|
+| `caveman` | `/claude-code-skills/caveman/SKILL.md` | Short, direct response style |
+| `handoff` | `/claude-code-skills/handoff/SKILL.md` | Session handoff creation and resume workflow |
+| `cpp-engineering-standards` | `/claude-code-skills/cpp-engineering-standards/SKILL.md` | Unified C++ engineering rules and guidance |
+
+For deep C++ topic coverage, see:
+`/claude-code-skills/cpp-engineering-standards/references/`.
